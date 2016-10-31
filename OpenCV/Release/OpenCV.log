@@ -1,0 +1,18 @@
+﻿已經開始建置於 2014/11/22 上午 11:09:23。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\Lin Kao-Yaun\Documents\Visual Studio 2012\Projects\視覺伺服追蹤平台\OpenCV\OpenCV.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "FaceTracking(8051+7257P+PWM).cpp"
+         FaceTracking(8051+7257P+PWM).cpp
+     1>D:\opencv\build\include\opencv2/core/operations.hpp(3155): error C2556: 'cv::FileNode cv::FileNodeIterator::operator ->(void) const' : 多載函式和 'cv::FileNode *cv::FileNodeIterator::operator ->(void) const' 只在傳回型別不同
+                 D:\opencv\build\include\opencv2/core/core.hpp(4222) : 請參閱 'cv::FileNodeIterator::operator ->' 的宣告
+     1>D:\opencv\build\include\opencv2/core/operations.hpp(3155): error C2040: 'cv::FileNodeIterator::operator ->' : 'cv::FileNode (void) const' 和 'cv::FileNode *(void) const' 的間接取值層級不同
+     1>D:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\opencv\build\include\opencv2/legacy/blobtrack.hpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : 請參閱 'strcpy' 的宣告
+     1>D:\opencv\build\include\opencv2/legacy/blobtrack.hpp(256): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : 請參閱 'strcat' 的宣告
+     1>專案 "C:\Users\Lin Kao-Yaun\Documents\Visual Studio 2012\Projects\視覺伺服追蹤平台\OpenCV\OpenCV.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:02.21
